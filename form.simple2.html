@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form.simple 2</title>
+</head>
+<body>
+    <form action="">
+        <H1 style="color:BLUE; background-color:aqua ;">ĐĂNG KÍ HỌC VIÊN</H1>
+    <table>
+        <tr>
+            <td style="color: blue;">Họ và tên</td>
+            <td><input type="text" name="Name"></td>      
+       </tr>
+
+       <tr>
+        <td style="color:blue ;">Ngày sinh</td>
+        <td><input type="text" name="Date of birth"></td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td style="color: blue;" >Giới tính</td>
+            <td><input type="radio" name="Gender"style='padding:8px'>Nam</td>
+            <td><input type="radio" name="Gender">Nữ</td>
+             </tr>
+    </table>
+    <table>
+        <tr>
+            <td style="color: blue; text-align:start ;">Địa chỉ</td>
+            <td colspan="2"><textarea name="Address" cols="30" rows="7"></textarea></td>
+
+        </tr>
+
+        <tr>
+            <td style="color: blue;">Lớp</td>
+            <td>
+                <select name="Grade">
+                    <option value="0">--Chọn lớp--</option>
+                    <option value="1">Lớp 1</option>
+                    <option value="2">Lớp 2</option>
+                    <option value="3">Lớp 3</option>
+                </select>
+
+                <tr>
+                    <td style="color: blue;">Email</td>
+                    <td colspan="2"><input type="Email" name="Email"></td>
+                  </tr>
+
+                  <tr>
+                    <td style="color: blue;" rowspan="2">Điện thoại</td>
+                    <td colspan="2"><input type="number" name="number"></td>    
+
+                  </tr>
+
+                  <table>
+                      <tr>
+                          <td style="padding: 30px;"></td>
+                          <td>
+                        <button type="submit" name="Agister">Đăng kí</button>
+                       </td>
+                       <td>
+
+                        <td><input type="reset" name="Reset" value="Nhập lại"></td>
+                    </tr></td>
+                      </tr>
+                  </table>
+
+
+    </table>
+    </form>
+    
+
+
+</body>
+</html>
